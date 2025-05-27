@@ -1,5 +1,8 @@
 package com.example.Minimalism.database;
 
+import jakarta.persistence.Table;
+import org.springframework.data.jpa.repository.Query;
+
 public class connectivity {
     /*In this i will make the quries of database and when i am able to do that
     * succesfully than i will write a class for database connection and trying to
@@ -10,4 +13,6 @@ public class connectivity {
     * THIS WAY MY LEARNING WITH GITHUB IS GET BETTER AND I NEED TO ALSO WRITE
     * A GITHUB ACTIONS FOLDER BEFORE THAT HAPPENS
      */
+    @Query
+    @Table
 }
