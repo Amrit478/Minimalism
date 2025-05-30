@@ -1,2 +1,4 @@
-package com.example.Minimalism.service;public class logicstarter {
+package com.example.Minimalism.service;
+
+public class logicstarter {
 }
