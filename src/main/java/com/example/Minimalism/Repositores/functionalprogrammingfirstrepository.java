@@ -1,2 +1,4 @@
-package com.example.Minimalism.Repositores;public class functionalprogrammingfirstrepository {
+package com.example.Minimalism.Repositores;
+
+public class functionalprogrammingfirstrepository {
 }
