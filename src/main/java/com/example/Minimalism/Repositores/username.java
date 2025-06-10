@@ -1,4 +1,6 @@
 package com.example.Minimalism.Repositores;
 
-public class username {
+@FunctionalInterface
+public interface updateusername {
+    void updateusername;
 }

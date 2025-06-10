@@ -1,4 +1,6 @@
 package com.example.Minimalism.Repositores;
 
-public class userfind {
+@FunctionalInterface
+public interface userfind {
+    void userfind();
 }

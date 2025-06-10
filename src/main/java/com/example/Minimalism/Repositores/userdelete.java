@@ -1,4 +1,6 @@
 package com.example.Minimalism.Repositores;
 
-public class userdelete {
+@FunctionalInterface
+public interface userdelete {
+  void userdelete();
 }

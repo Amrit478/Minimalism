@@ -1,4 +1,6 @@
 package com.example.Minimalism.Repositores;
 
-public class userid {
+@FunctionalInterface
+public interface adduserid {
+    void adduser();
 }
