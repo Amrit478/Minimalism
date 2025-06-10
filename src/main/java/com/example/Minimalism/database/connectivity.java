@@ -35,4 +35,56 @@ public class connectivity {
         this.cars = cars;
         this.overdraft = overdraft;
     }
+    /*Now we will write the methods here which is used by repositories
+    and those methods use by lamba for functional programming or even imperative programming
+    logic functions
+     */
+
+    public int getUserid() {
+        return userid;
+    }
+
+    public void setUserid(int userid) {
+        this.userid = userid;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+    public double getExpense() {
+        return expense;
+    }
+
+    public void setExpense(double expense) {
+        this.expense = expense;
+    }
+
+    public int getCars() {
+        return cars;
+    }
+
+    public void setCars(int cars) {
+        this.cars = cars;
+    }
+
+    public boolean isOverdraft() {
+        return overdraft;
+    }
+
+    public void setOverdraft(boolean overdraft) {
+        this.overdraft = overdraft;
+    }
 }
