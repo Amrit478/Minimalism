@@ -20,13 +20,19 @@ public class connectivity {
     AFTER DOING THAT FOR 2 DAYS I WILL MAKE ANOTHER SAME ERROR BUT HOWEVER THIS TIME
     GITHUB ACTIONS WILL BE THERE AND I WILL FIND OUT HOW MUCH DIFFERENCE WILL IT MAKE
      */
-     */
-     */
-     */
-     */
-     */
-     */
-     */
-    @Query
-    @Table
+    private int userid;
+    private String username;
+    private double money;
+    private double expense;
+    private int cars;
+    private boolean overdraft;
+
+    public connectivity(int userid, String username, double money, double expense, int cars, boolean overdraft){
+        this.userid = userid;
+        this.username = username;
+        this.money = money;
+        this.expense = expense;
+        this.cars = cars;
+        this.overdraft = overdraft;
+    }
 }
