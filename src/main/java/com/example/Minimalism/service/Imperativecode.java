@@ -7,24 +7,7 @@ package com.example.Minimalism.service;
 /*Will use constructor here for imperative programming and will be using the autowired annotation
 to implement other classes dependencies here as well
  */
-public class differentlogicforfunctionalprogramming {
-
-    //This is an example of constructor autowired injection and it is The code you're showing is a hybrid
-//    @Service
-//    public class UserService {
-//
-//        private final UserRepository userRepository;
-//
-//        public UserService(UserRepository userRepository) {
-//            this.userRepository = userRepository;
-//        }
-//
-//        public void process(Function<User, Boolean> filter) {
-//            userRepository.findAll().stream().filter(filter::apply).toList();
-//        }
-//    }
-
-}
+public class Imperativecode {
 
 /*2. Purely Imperative Version
 
@@ -49,3 +32,4 @@ public class UserService {
     }
 }
 */
+}

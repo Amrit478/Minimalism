@@ -4,7 +4,7 @@ package com.example.Minimalism.service;
 /*This is my service class where i will logic for the program and i will be using Repositories
  * and accesing database connectivity class and making changes into the database*/
 
-public class logicstarter {
+public class Functionalcode {
     //Need to write functional programming here
     /*More Functional Version
 Here, we embrace functional programming more fully — avoid side effects,
